@@ -1,6 +1,5 @@
 package com.example.securitynoteservice.note;
 
-import com.example.securitynoteservice.note.dto.NoteRegisterDto;
 import com.example.securitynoteservice.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;

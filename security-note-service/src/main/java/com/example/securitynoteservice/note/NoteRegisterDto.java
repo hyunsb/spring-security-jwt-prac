@@ -1,4 +1,4 @@
-package com.example.securitynoteservice.note.dto;
+package com.example.securitynoteservice.note;
 
 import lombok.Getter;
 import lombok.Setter;

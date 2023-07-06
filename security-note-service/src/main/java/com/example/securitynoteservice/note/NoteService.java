@@ -1,7 +1,7 @@
 package com.example.securitynoteservice.note;
 
 import com.example.securitynoteservice.user.User;
-import com.example.securitynoteservice.user.exception.UserNotFoundException;
+import com.example.securitynoteservice.user.UserNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;

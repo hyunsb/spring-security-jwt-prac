@@ -1,6 +1,5 @@
-package com.example.securitynoteservice.note;
+package com.example.securitynoteservice.notice;
 
-import com.example.securitynoteservice.user.User;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,46 +15,36 @@ import java.time.LocalDateTime;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @EntityListeners(AuditingEntityListener.class)
-public class Note {
+public class Notice {
 
     @Id
     @GeneratedValue
     private Long id;
 
     /**
-     * 제목
+     * 공지사항 제목
      */
     private String title;
 
     /**
-     * 내용
+     * 공지사항 내용
      */
     @Lob
     private String content;
 
     /**
-     * User 참조
+     * 등록일시
      */
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "USER_ID")
-    private User user;
-
     @CreatedDate
     private LocalDateTime createdAt;
+
+    /**
+     * 수정일시
+     */
     @LastModifiedDate
     private LocalDateTime updatedAt;
 
-    public Note(
-            String title,
-            String content,
-            User user
-    ) {
-        this.title = title;
-        this.content = content;
-        this.user = user;
-    }
-
-    public void updateContent(
+    public Notice(
             String title,
             String content
     ) {
