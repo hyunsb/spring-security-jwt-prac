@@ -22,3 +22,8 @@ spring:
         format_sql: true
       default_batch_fetch_size: 100
     open-in-view: true
+
+logging:
+  level:
+    '[bankApplication]': DEBUG
+    '[org.hibernate.type]': TRACE
