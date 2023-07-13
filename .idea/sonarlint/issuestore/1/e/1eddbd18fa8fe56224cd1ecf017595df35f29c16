@@ -1,0 +1,11 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(•‰öğ
+A
+java:S1068"&Remove this unused "id" private field.(şÓî«şÿÿÿÿ
+B
+java:S1068",Remove this unused "username" private field.(‘ó¹²
+D
+java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ
+B
+java:S1068",Remove this unused "fullName" private field.(—ÿø

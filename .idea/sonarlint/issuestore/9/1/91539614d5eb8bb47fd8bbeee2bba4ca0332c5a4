@@ -1,0 +1,15 @@
+
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(ßíËÚ
+A
+java:S1452"&Remove usage of generic wildcard type.(ıÌÍïşÿÿÿÿ
+F
+java:S1068"+Remove this unused "success" private field.(Ó¢‹ùüÿÿÿÿ
+B
+java:S1068",Remove this unused "response" private field.(¶ş²…
+D
+java:S1068")Remove this unused "error" private field.(Ù¶üƒùÿÿÿÿ
+A
+java:S1068"+Remove this unused "message" private field.(Úæê»
+?
+java:S1068"*Remove this unused "status" private field.(œªã9
